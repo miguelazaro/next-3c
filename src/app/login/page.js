@@ -34,7 +34,7 @@ const name = event.target.name;
 
                 <input name="password" onChange= {onChange} value={state.password} placeholder="123456" type="password"/>
 
-                <button>onClick={onLogin} Login </button>
+                <button>onClick={onLogin} Login </button> 
             </div>
     )
 }
